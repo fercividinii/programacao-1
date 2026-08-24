@@ -1,0 +1,10 @@
+package lista2;
+
+public class E9 {
+    public static void main(String[] args) {
+        int x = 15, y = 4;
+        int divisaoInteira = x / y;
+        double divisaoReal = (double) x / y;
+        System.out.println("Divisão inteira: " + divisaoInteira + "\nDivisão real: " + divisaoReal);
+    }
+}

@@ -1,0 +1,9 @@
+package lista2;
+
+public class E19 {
+    public static void main(String[] args) {
+        double saldo = 1250.00;
+        String situacao = saldo > 0 ? "Saldo positivo" : "Saldo negativo";
+        System.out.println("Saldo: R$ " + saldo + "\nSituação: " + situacao);
+    }
+}

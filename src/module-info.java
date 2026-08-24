@@ -4,6 +4,7 @@
 /**
  * 
  */
-module teeste {
+
+module ferc {
 	requires java.desktop;
 }
