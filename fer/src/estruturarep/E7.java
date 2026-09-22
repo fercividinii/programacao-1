@@ -1,0 +1,17 @@
+package estruturarep;
+
+import java.util.Scanner;
+
+public class E7 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String senha;
+        do {
+            System.out.print("Digite a senha: ");
+            senha = sc.nextLine();
+        } while (!senha.equals("1234"));
+        System.out.println("Senha correta!");
+        System.out.println("Acesso permitido.");
+        sc.close();
+    }
+}
